@@ -33,6 +33,26 @@ h2 {
 .meter-warning-color {
   width: 2rem;
   height: 2rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+
+/* CSS */
+.button {
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #000;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  -moz-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

@@ -24,9 +24,13 @@ $context = array(
 	<?php echo wp_interactivity_data_wp_context($context); ?>
 >
 	<h2>Decibel Meter Value: <span data-wp-text="context.decibelValue"></span></h2>
-	<div 
+	<!-- <div 
 		class="meter-warning-color"
 		data-wp-style--background="context.backgroundColor"
-	></div>
-	<button data-wp-on--click="actions.randomizeNumber">Random!</button>
+	></div> -->
+	<button 
+		class="button" 
+		data-wp-on--click="actions.randomizeNumber"
+		data-wp-style--background="context.backgroundColor"
+	>Random!</button>
 </div>
