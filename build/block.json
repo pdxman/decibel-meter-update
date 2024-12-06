@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/decibel-meter-update",
+  "version": "0.1.0",
+  "title": "Decibel Meter Update",
+  "category": "widgets",
+  "icon": "media-interactive",
+  "description": "An interactive block with the Interactivity API.",
+  "example": {},
+  "supports": {
+    "interactivity": true
+  },
+  "textdomain": "decibel-meter-update",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScriptModule": "file:./view.js"
+}
