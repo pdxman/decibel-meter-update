@@ -25,3 +25,12 @@
 .wp-block-create-block-decibel-meter-update.dark-theme p {
   color: #ddd;
 }
+
+h2 {
+  margin-bottom: 0;
+}
+
+.meter-warning-color {
+  width: 2rem;
+  height: 2rem;
+}

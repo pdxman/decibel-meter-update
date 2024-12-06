@@ -26,4 +26,13 @@
   color: #ddd;
 }
 
+h2 {
+  margin-bottom: 0;
+}
+
+.meter-warning-color {
+  width: 2rem;
+  height: 2rem;
+}
+
 /*# sourceMappingURL=style-index.css.map*/

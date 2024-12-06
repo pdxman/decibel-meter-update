@@ -13,7 +13,8 @@ wp_interactivity_state(
 );
 
 $context = array(
-	'decibelValue' => 0
+	'decibelValue' => 0,
+	'backgroundColor' => 'yellow'
 )
 ?>
 
@@ -23,5 +24,9 @@ $context = array(
 	<?php echo wp_interactivity_data_wp_context($context); ?>
 >
 	<h2>Decibel Meter Value: <span data-wp-text="context.decibelValue"></span></h2>
+	<div 
+		class="meter-warning-color"
+		data-wp-style--background="context.backgroundColor"
+	></div>
 	<button data-wp-on--click="actions.randomizeNumber">Random!</button>
 </div>
